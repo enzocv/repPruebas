@@ -7,13 +7,13 @@ namespace Financiera.Infraestructura.Datos.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class version01 : IMigrationMetadata
+    public sealed partial class DB01 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(version01));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(DB01));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703152210117_version01"; }
+            get { return "201703202133359_DB01"; }
         }
         
         string IMigrationMetadata.Source

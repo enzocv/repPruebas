@@ -1,21 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Financiera.Dominio.Cliente">
-    <Position X="1.75" Y="0.5" Width="5.5" />
+    <Position X="0.75" Y="0.5" Width="5.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAAAAAAAAAAAIAAAEAAAAEAAAAAAAAAAAAEAA=</HashCode>
-      <FileName>Cliente.cs</FileName>
+      <FileName>Entidades\Cliente.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Financiera.Dominio.CuentaAhorros">
-    <Position X="1.75" Y="3.25" Width="4.75" />
+    <Position X="0.75" Y="3.25" Width="4.75" />
     <TypeIdentifier>
       <HashCode>AAgAEQAAAAFEAAQAAAIAAAAAAAAAEAAAAAAAIAAAAAA=</HashCode>
-      <FileName>CuentaAhorros.cs</FileName>
+      <FileName>Entidades\CuentaAhorros.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Propietario" />
     </ShowAsAssociation>
   </Class>
+  <Interface Name="Financiera.Dominio.Repositorios.IRepositorioGeneral&lt;T&gt;">
+    <Position X="7" Y="2.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Repositorios\IRepositorioGeneral.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

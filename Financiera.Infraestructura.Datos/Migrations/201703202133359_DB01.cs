@@ -3,7 +3,7 @@ namespace Financiera.Infraestructura.Datos.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class version01 : DbMigration
+    public partial class DB01 : DbMigration
     {
         public override void Up()
         {

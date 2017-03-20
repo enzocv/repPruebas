@@ -52,12 +52,13 @@
     <Compile Include="FinancieraContexto.cs" />
     <Compile Include="Mapeos\ClienteMapeo.cs" />
     <Compile Include="Mapeos\CuentaAhorrosMapeo.cs" />
-    <Compile Include="Migrations\201703152210117_version01.cs" />
-    <Compile Include="Migrations\201703152210117_version01.Designer.cs">
-      <DependentUpon>201703152210117_version01.cs</DependentUpon>
+    <Compile Include="Migrations\201703202133359_DB01.cs" />
+    <Compile Include="Migrations\201703202133359_DB01.Designer.cs">
+      <DependentUpon>201703202133359_DB01.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios\RepositorioGeneral.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Financiera.Dominio\Financiera.Dominio.csproj">
@@ -66,12 +67,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201703152210117_version01.resx">
-      <DependentUpon>201703152210117_version01.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703202133359_DB01.resx">
+      <DependentUpon>201703202133359_DB01.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
