@@ -35,6 +35,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\Financiaer.Distribucion.API\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\Financiaer.Distribucion.API\bin\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Financiera.Dominio">
+      <HintPath>..\Financiaer.Distribucion.API\bin\Financiera.Dominio.dll</HintPath>
+    </Reference>
+    <Reference Include="Financiera.Infraestructura.Datos">
+      <HintPath>..\Financiaer.Distribucion.API\bin\Financiera.Infraestructura.Datos.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -53,8 +65,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ClientePruebasUnitarias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financiera.Infraestructura.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financiera.PruebasUnitarias", "Financiera.PruebasUnitarias\Financiera.PruebasUnitarias.csproj", "{991C61E4-F8DC-496D-B1C1-E91DD5017A13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financiaer.Distribucion.API", "Financiaer.Distribucion.API\Financiaer.Distribucion.API.csproj", "{EE26730A-B8E3-4FF0-8BAE-23B9C9E6699A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{991C61E4-F8DC-496D-B1C1-E91DD5017A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{991C61E4-F8DC-496D-B1C1-E91DD5017A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{991C61E4-F8DC-496D-B1C1-E91DD5017A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE26730A-B8E3-4FF0-8BAE-23B9C9E6699A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE26730A-B8E3-4FF0-8BAE-23B9C9E6699A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE26730A-B8E3-4FF0-8BAE-23B9C9E6699A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE26730A-B8E3-4FF0-8BAE-23B9C9E6699A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
